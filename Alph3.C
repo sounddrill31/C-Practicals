@@ -7,7 +7,7 @@ void main()
     scanf("%c",&ch);
     if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
     {
-        printf("%d is a character!\n",ch);
+        printf("%c is a character!\n",ch);
     }
     else if(ch >= '0' && ch <= '9')
     {
